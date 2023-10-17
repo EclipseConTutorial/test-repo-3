@@ -6,7 +6,7 @@ jobs:
   build:
     name: Build and Run Tests
     runs-on: ubuntu-latest
-    permissions:
+     permissions:
       checks: write
     steps:
       - name: Checkout Code
